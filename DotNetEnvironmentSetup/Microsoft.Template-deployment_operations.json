@@ -1,0 +1,122 @@
+[
+  {
+    "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/Microsoft.Template-20210720045538/operations/A734824B77FC65E2",
+    "operationId": "A734824B77FC65E2",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-07-20T08:59:40.188311Z",
+      "duration": "PT35.9677805S",
+      "trackingId": "e72e5e8b-ac8c-4dd6-8e12-8b8b8232a261",
+      "serviceRequestId": "458e4399-79e2-46e1-9526-ef841a53d02b",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Web/sites/WebAppDotNetEnv/sourcecontrols/web",
+        "resourceType": "Microsoft.Web/sites/sourcecontrols",
+        "resourceName": "WebAppDotNetEnv/web"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/Microsoft.Template-20210720045538/operations/B638957640B4F5B5",
+    "operationId": "B638957640B4F5B5",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-07-20T08:59:27.9806233Z",
+      "duration": "PT23.7600928S",
+      "trackingId": "3d46c4b1-02af-4088-b464-c8dd32649950",
+      "serviceRequestId": "bd1c0091-d90d-48a1-8b84-2a1ec62f2a8e",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Web/sites/WebAppDotNetEnv",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "WebAppDotNetEnv"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/Microsoft.Template-20210720045538/operations/194E8F94B98D776D",
+    "operationId": "194E8F94B98D776D",
+    "properties": {
+      "provisioningOperation": "Read",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-07-20T08:59:04.1992747Z",
+      "duration": "PT3M8.6991238S",
+      "trackingId": "6c511b5f-89b8-4865-8a44-7d01eedb3f5f",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/microsoft.insights/components/WebAppDotNetEnv",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "WebAppDotNetEnv",
+        "apiVersion": "2015-05-01"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/Microsoft.Template-20210720045538/operations/C6D475694B1B2084",
+    "operationId": "C6D475694B1B2084",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-07-20T08:59:03.9675328Z",
+      "duration": "PT3M8.4673819S",
+      "trackingId": "872900a1-439f-4ad2-abfa-c9ae287d95c4",
+      "serviceRequestId": "eb6d0492-ecc6-4ffd-84c6-50476cfd47dd",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/microsoft.insights/components/WebAppDotNetEnv",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "WebAppDotNetEnv"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/Microsoft.Template-20210720045538/operations/6C3A795C92F7B776",
+    "operationId": "6C3A795C92F7B776",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-07-20T08:56:03.206588Z",
+      "duration": "PT7.7064371S",
+      "trackingId": "fe3d40ee-f246-4c92-a689-a747da6f9cd9",
+      "serviceRequestId": "a58a2531-fba3-48f5-bb44-090ce68aa964",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Web/serverfarms/ASP-RGDotNetEnv-91fb",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "ASP-RGDotNetEnv-91fb"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/Microsoft.Template-20210720045538/operations/FB7C18F4BDDBF23A",
+    "operationId": "FB7C18F4BDDBF23A",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-07-20T08:58:42.9163996Z",
+      "duration": "PT2M47.4162487S",
+      "trackingId": "6f8f8b62-46f7-486d-ba24-3875fa1cc124",
+      "serviceRequestId": "41e79fb4-4c63-4673-8bbb-3df908ec820d",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/DefaultResourceGroup-EUS2/providers/Microsoft.Resources/deployments/newWorkspaceTemplate",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "newWorkspaceTemplate"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/Microsoft.Template-20210720045538/operations/08585748355315625410",
+    "operationId": "08585748355315625410",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-07-20T08:59:40.2615077Z",
+      "duration": "PT36.0409772S",
+      "trackingId": "6b003cfa-bd16-4afb-8f4a-a4d403309500",
+      "statusCode": "OK"
+    }
+  }
+]

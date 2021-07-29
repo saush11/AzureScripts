@@ -1,0 +1,427 @@
+{
+  "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/Microsoft.SQLDatabase.newDatabaseNewServer_28b203e6efcc4fe999ee1",
+  "name": "Microsoft.SQLDatabase.newDatabaseNewServer_28b203e6efcc4fe999ee1",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv/databases/SqlDbDotNetEnv",
+    "marketplaceItemId": "Microsoft.SQLDatabase"
+  },
+  "properties": {
+    "templateHash": "722896055156404889",
+    "parameters": {
+      "administratorLogin": {
+        "type": "String",
+        "value": "sqlserverdotnetenv"
+      },
+      "administratorLoginPassword": {
+        "type": "SecureString"
+      },
+      "collation": {
+        "type": "String",
+        "value": "SQL_Latin1_General_CP1_CI_AS"
+      },
+      "databaseName": {
+        "type": "String",
+        "value": "SqlDbDotNetEnv"
+      },
+      "tier": {
+        "type": "String",
+        "value": "GeneralPurpose"
+      },
+      "skuName": {
+        "type": "String",
+        "value": "GP_Gen5_2"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "maxSizeBytes": {
+        "type": "Int",
+        "value": 34359738368
+      },
+      "serverName": {
+        "type": "String",
+        "value": "sqlserverdotnetenv"
+      },
+      "sampleName": {
+        "type": "String",
+        "value": "AdventureWorksLT"
+      },
+      "zoneRedundant": {
+        "type": "Bool",
+        "value": false
+      },
+      "licenseType": {
+        "type": "String",
+        "value": "LicenseIncluded"
+      },
+      "readScaleOut": {
+        "type": "String",
+        "value": "Disabled"
+      },
+      "numberOfReplicas": {
+        "type": "Int",
+        "value": 0
+      },
+      "minCapacity": {
+        "type": "String",
+        "value": ""
+      },
+      "autoPauseDelay": {
+        "type": "String",
+        "value": ""
+      },
+      "enableADS": {
+        "type": "Bool",
+        "value": false
+      },
+      "allowAzureIps": {
+        "type": "Bool",
+        "value": false
+      },
+      "databaseTags": {
+        "type": "Object",
+        "value": {
+          "environment": "dev"
+        }
+      },
+      "serverTags": {
+        "type": "Object",
+        "value": {
+          "environment": "dev"
+        }
+      },
+      "enableVA": {
+        "type": "Bool",
+        "value": false
+      },
+      "useVAManagedIdentity": {
+        "type": "Bool",
+        "value": false
+      },
+      "enablePrivateEndpoint": {
+        "type": "Bool",
+        "value": false
+      },
+      "privateEndpointNestedTemplateId": {
+        "type": "String",
+        "value": "pe-dce14120-7426-4112-af82-8f966a789027"
+      },
+      "privateEndpointSubscriptionId": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointResourceGroup": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointName": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointLocation": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointSubnetId": {
+        "type": "String",
+        "value": ""
+      },
+      "privateLinkServiceName": {
+        "type": "String",
+        "value": ""
+      },
+      "privateLinkServiceServiceId": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointVnetSubscriptionId": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointVnetResourceGroup": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointVnetName": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointSubnetName": {
+        "type": "String",
+        "value": ""
+      },
+      "enablePrivateDnsZone": {
+        "type": "Bool",
+        "value": true
+      },
+      "privateLinkPrivateDnsZoneFQDN": {
+        "type": "String",
+        "value": "privatelink.database.windows.net"
+      },
+      "privateEndpointDnsRecordUniqueId": {
+        "type": "String",
+        "value": "dce14120-7426-4112-af82-8f966a78902a"
+      },
+      "privateEndpointTemplateLink": {
+        "type": "String",
+        "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01649162/DeploymentTemplates/PrivateEndpoint.json"
+      },
+      "privateDnsForPrivateEndpointTemplateLink": {
+        "type": "String",
+        "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01649162/DeploymentTemplates/PrivateDnsForPrivateEndpoint.json"
+      },
+      "privateDnsForPrivateEndpointNicTemplateLink": {
+        "type": "String",
+        "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01649162/DeploymentTemplates/PrivateDnsForPrivateEndpointNic.json"
+      },
+      "privateDnsForPrivateEndpointIpConfigTemplateLink": {
+        "type": "String",
+        "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01649162/DeploymentTemplates/PrivateDnsForPrivateEndpointIpConfig.json"
+      },
+      "allowClientIp": {
+        "type": "Bool",
+        "value": false
+      },
+      "clientIpRuleName": {
+        "type": "String",
+        "value": "ClientIp-2021-7-20_5-43-31"
+      },
+      "clientIpValue": {
+        "type": "String",
+        "value": "64.30.69.176"
+      },
+      "requestedBackupStorageRedundancy": {
+        "type": "String",
+        "value": "Geo"
+      },
+      "maintenanceConfigurationId": {
+        "type": "String",
+        "value": ""
+      },
+      "minimalTlsVersion": {
+        "type": "String",
+        "value": "1.2"
+      },
+      "enableSqlLedger": {
+        "type": "Bool",
+        "value": false
+      },
+      "enableDigestStorage": {
+        "type": "String",
+        "value": "Disabled"
+      },
+      "digestStorageOption": {
+        "type": "String",
+        "value": ""
+      },
+      "digestStorageName": {
+        "type": "String",
+        "value": ""
+      },
+      "blobStorageContainerName": {
+        "type": "String",
+        "value": ""
+      },
+      "retentionDays": {
+        "type": "String",
+        "value": ""
+      },
+      "retentionPolicy": {
+        "type": "Bool",
+        "value": false
+      },
+      "digestAccountResourceGroup": {
+        "type": "String",
+        "value": ""
+      },
+      "digestRegion": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "isNewDigestLocation": {
+        "type": "Bool",
+        "value": false
+      },
+      "sqlLedgerTemplateLink": {
+        "type": "String",
+        "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01649162/DeploymentTemplates/SqlLedger.json"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2021-07-20T09:43:43.102127Z",
+    "duration": "PT8.9331809S",
+    "correlationId": "880a777f-ea20-4ca8-bbc6-b8ebb7533e36",
+    "providers": [
+      {
+        "namespace": "Microsoft.Sql",
+        "resourceTypes": [
+          {
+            "resourceType": "servers",
+            "locations": [
+              "eastus"
+            ]
+          },
+          {
+            "resourceType": "servers/databases",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "sqlserverdotnetenv"
+          },
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Storage/storageAccounts/sqlvacadobe2tmkfz4",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "sqlvacadobe2tmkfz4"
+          },
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "sqlserverdotnetenv",
+            "apiVersion": "2018-06-01-preview"
+          }
+        ],
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Storage/storageAccounts/sqlvacadobe2tmkfz4/providers/Microsoft.Authorization/roleAssignments/a97f31d0-678e-533c-8c88-260bb7216601",
+        "resourceType": "Microsoft.Storage/storageAccounts/providers/roleAssignments",
+        "resourceName": "sqlvacadobe2tmkfz4/Microsoft.Authorization/a97f31d0-678e-533c-8c88-260bb7216601"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "sqlserverdotnetenv"
+          }
+        ],
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv/databases/SqlDbDotNetEnv",
+        "resourceType": "Microsoft.Sql/servers/databases",
+        "resourceName": "sqlserverdotnetenv/SqlDbDotNetEnv"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "sqlserverdotnetenv"
+          }
+        ],
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv/firewallrules/AllowAllWindowsAzureIps",
+        "resourceType": "Microsoft.Sql/servers/firewallrules",
+        "resourceName": "sqlserverdotnetenv/AllowAllWindowsAzureIps"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "sqlserverdotnetenv"
+          }
+        ],
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv/firewallrules/ClientIp-2021-7-20_5-43-31",
+        "resourceType": "Microsoft.Sql/servers/firewallrules",
+        "resourceName": "sqlserverdotnetenv/ClientIp-2021-7-20_5-43-31"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "sqlserverdotnetenv"
+          },
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv/databases/SqlDbDotNetEnv",
+            "resourceType": "Microsoft.Sql/servers/databases",
+            "resourceName": "sqlserverdotnetenv/SqlDbDotNetEnv"
+          }
+        ],
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv/securityAlertPolicies/Default",
+        "resourceType": "Microsoft.Sql/servers/securityAlertPolicies",
+        "resourceName": "sqlserverdotnetenv/Default"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "sqlserverdotnetenv"
+          },
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Storage/storageAccounts/sqlvacadobe2tmkfz4",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "sqlvacadobe2tmkfz4"
+          },
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv/securityAlertPolicies/Default",
+            "resourceType": "Microsoft.Sql/servers/securityAlertPolicies",
+            "resourceName": "sqlserverdotnetenv/Default"
+          }
+        ],
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv/vulnerabilityAssessments/Default",
+        "resourceType": "Microsoft.Sql/servers/vulnerabilityAssessments",
+        "resourceName": "sqlserverdotnetenv/Default"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv/databases/SqlDbDotNetEnv",
+            "resourceType": "Microsoft.Sql/servers/databases",
+            "resourceName": "sqlserverdotnetenv/SqlDbDotNetEnv"
+          },
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/SubnetPolicies-",
+            "resourceType": "Microsoft.Resources/deployments",
+            "resourceName": "SubnetPolicies-"
+          }
+        ],
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/PrivateEndpoint-",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "PrivateEndpoint-"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/PrivateEndpoint-",
+            "resourceType": "Microsoft.Resources/deployments",
+            "resourceName": "PrivateEndpoint-"
+          }
+        ],
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/PrivateDns-pe-dce14120-7426-4112-af82-8f966a789027",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "PrivateDns-pe-dce14120-7426-4112-af82-8f966a789027"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "sqlserverdotnetenv"
+          },
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv/databases/SqlDbDotNetEnv",
+            "resourceType": "Microsoft.Sql/servers/databases",
+            "resourceName": "sqlserverdotnetenv/SqlDbDotNetEnv"
+          }
+        ],
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/ledger-",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "ledger-"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

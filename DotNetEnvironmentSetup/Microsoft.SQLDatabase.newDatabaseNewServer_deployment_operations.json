@@ -1,0 +1,20 @@
+[
+  {
+    "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/Microsoft.SQLDatabase.newDatabaseNewServer_28b203e6efcc4fe999ee1/operations/0685BF0C2BE3C34E",
+    "operationId": "0685BF0C2BE3C34E",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Running",
+      "timestamp": "2021-07-20T09:43:43.1259646Z",
+      "duration": "PT7.8919154S",
+      "trackingId": "59efb8c0-d516-4015-9a02-d2860690cea0",
+      "serviceRequestId": "0adb6123-5ea0-4eff-b4e0-6903f5d1ebe2",
+      "statusCode": "Accepted",
+      "targetResource": {
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Sql/servers/sqlserverdotnetenv",
+        "resourceType": "Microsoft.Sql/servers",
+        "resourceName": "sqlserverdotnetenv"
+      }
+    }
+  }
+]

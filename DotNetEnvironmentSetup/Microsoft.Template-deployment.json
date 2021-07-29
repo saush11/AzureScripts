@@ -1,0 +1,199 @@
+{
+  "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Resources/deployments/Microsoft.Template-20210720045538",
+  "name": "Microsoft.Template-20210720045538",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "marketplaceItemId": "Microsoft.Template"
+  },
+  "properties": {
+    "templateHash": "6054544548711777672",
+    "parameters": {
+      "subscriptionId": {
+        "type": "String",
+        "value": "567aa17a-a461-416e-b5b6-eb1579ca7bf2"
+      },
+      "name": {
+        "type": "String",
+        "value": "WebAppDotNetEnv"
+      },
+      "location": {
+        "type": "String",
+        "value": "East US 2"
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "ASP-RGDotNetEnv-91fb"
+      },
+      "serverFarmResourceGroup": {
+        "type": "String",
+        "value": "RGDotNetEnv"
+      },
+      "alwaysOn": {
+        "type": "Bool",
+        "value": false
+      },
+      "sku": {
+        "type": "String",
+        "value": "Free"
+      },
+      "skuCode": {
+        "type": "String",
+        "value": "F1"
+      },
+      "workerSize": {
+        "type": "String",
+        "value": "0"
+      },
+      "workerSizeId": {
+        "type": "String",
+        "value": "0"
+      },
+      "numberOfWorkers": {
+        "type": "String",
+        "value": "1"
+      },
+      "currentStack": {
+        "type": "String",
+        "value": "dotnet"
+      },
+      "phpVersion": {
+        "type": "String",
+        "value": "OFF"
+      },
+      "netFrameworkVersion": {
+        "type": "String",
+        "value": "v5.0"
+      },
+      "repoUrl": {
+        "type": "String",
+        "value": "https://github.com/saush11/ASP.Net-EF-App"
+      },
+      "branch": {
+        "type": "String",
+        "value": "master"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2021-07-20T08:59:40.2809975Z",
+    "duration": "PT3M46.3658839S",
+    "correlationId": "c1a312d5-2d9f-480f-865d-ab02f2512e1c",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "eastus2"
+            ]
+          },
+          {
+            "resourceType": "sites/sourcecontrols",
+            "locations": [
+              null
+            ]
+          },
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "eastus2"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "microsoft.insights",
+        "resourceTypes": [
+          {
+            "resourceType": "components",
+            "locations": [
+              "eastus2"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Resources",
+        "resourceTypes": [
+          {
+            "resourceType": "deployments",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/microsoft.insights/components/WebAppDotNetEnv",
+            "resourceType": "microsoft.insights/components",
+            "resourceName": "WebAppDotNetEnv"
+          },
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Web/serverfarms/ASP-RGDotNetEnv-91fb",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "ASP-RGDotNetEnv-91fb"
+          },
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/microsoft.insights/components/WebAppDotNetEnv",
+            "resourceType": "microsoft.insights/components",
+            "resourceName": "WebAppDotNetEnv",
+            "apiVersion": "2015-05-01"
+          }
+        ],
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Web/sites/WebAppDotNetEnv",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "WebAppDotNetEnv"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Web/Sites/WebAppDotNetEnv",
+            "resourceType": "Microsoft.Web/Sites",
+            "resourceName": "WebAppDotNetEnv"
+          }
+        ],
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Web/sites/WebAppDotNetEnv/sourcecontrols/web",
+        "resourceType": "Microsoft.Web/sites/sourcecontrols",
+        "resourceName": "WebAppDotNetEnv/web"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/DefaultResourceGroup-EUS2/providers/Microsoft.Resources/deployments/newWorkspaceTemplate",
+            "resourceType": "Microsoft.Resources/deployments",
+            "resourceName": "newWorkspaceTemplate"
+          }
+        ],
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/microsoft.insights/components/WebAppDotNetEnv",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "WebAppDotNetEnv"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/DefaultResourceGroup-EUS2/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-567aa17a-a461-416e-b5b6-eb1579ca7bf2-EUS2"
+      },
+      {
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/microsoft.insights/components/WebAppDotNetEnv"
+      },
+      {
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Web/serverfarms/ASP-RGDotNetEnv-91fb"
+      },
+      {
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Web/sites/WebAppDotNetEnv"
+      },
+      {
+        "id": "/subscriptions/567aa17a-a461-416e-b5b6-eb1579ca7bf2/resourceGroups/RGDotNetEnv/providers/Microsoft.Web/sites/WebAppDotNetEnv/sourcecontrols/web"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
